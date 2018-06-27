@@ -13,6 +13,7 @@
 
 
 Route::get('/', 'WelcomeController@index');
+Route::get('ranking/want', 'RankingController@want')->name('ranking.want');
 
 
 // User registration
